@@ -36,13 +36,13 @@ if(isset($_POST['submit'])) {
         }
         body {
             background-image: url(image/288421502_428101219183923_3364400594246027449_n.jpg);
-            background-size: cover;
+            background-size: 1920px;
             background-repeat: no-repeat;
             background-color: rgba(0,0,0,0.8);
             background-blend-mode: multiply;
         }
         .container {
-            background-color: #800000;
+            background-color: #800000 !important;
             height: 500px;
             width: 400px;
         }
@@ -55,8 +55,8 @@ if(isset($_POST['submit'])) {
     </style>
     <div class="container shadow-lg p-3 bg-body rounded mt-5 main">
         <div class="container-fluid shadow-sm">
-            <h2 class="text-uppercase p-1">conversion of unit</h2>
-            <p class="p-1 text-danger">Length only</p>
+            <h2 class="text-uppercase p-1 text-white">conversion of unit</h2>
+            <p class="p-1 text-danger text-white">Length only</p>
         </div>
         <div class="container-fluid">
             <form action="" method="post">
@@ -100,7 +100,7 @@ if(isset($_POST['submit'])) {
                 </select>
             </div>
             <div class="container-fluid mt-5 d-grid gap-2">
-                <button class="btn btn-outline-primary" type="submit" name="submit" value="submit">Convert</button>
+                <button class="btn btn-outline-light" type="submit" name="submit" value="submit">Convert</button>
             </div>
         </form>
     </div>
