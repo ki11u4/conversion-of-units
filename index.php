@@ -90,5 +90,8 @@ if(isset($_POST['submit'])) {
             </div>
         </form>
     </div>
+    <div class="attribution d-flex justify-content-center mt-5">
+    Challenge by our Prof. Renz Angelo Cadaoas. Coded by Group 2.
+  </div>
   </body>
 </html>
