@@ -25,7 +25,7 @@ if(isset($_POST['submit'])) {
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <title>GROUP 2 COVERSION OF UNIT</title>
   </head>
   <body>
     <style>
@@ -44,14 +44,14 @@ if(isset($_POST['submit'])) {
     </style>
     <div class="container shadow-lg p-3 bg-body rounded mt-5">
         <div class="container-fluid shadow-sm">
-            <h1 class="text-uppercase p-1">conversion of unit</h1>
+            <h2 class="text-uppercase p-1">conversion of unit</h2>
             <p class="p-1 text-danger">Length only</p>
         </div>
         <div class="container-fluid">
             <form action="" method="post">
                 <div class="mb-3">
                     <label for="" class="form-label"></label>
-                    <input type="text" name="from_value" value="<?php echo $from_value; ?>" class="form-control" id="" placeholder="Enter number">
+                    <input type="text" name="from_value" value="<?php echo $from_value; ?>" class="form-control" id="" placeholder="Enter number" >
                 </div>
                 <select name ="from_unit" class="form-select" aria-label="Default select example">
                     <option selected>Select Unit</option>
@@ -89,7 +89,7 @@ if(isset($_POST['submit'])) {
                 </select>
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-outline-primary mt-4" type="submit" name="submit" value="submit">Submit</button>
+                <button class="btn btn-outline-primary mt-4" type="submit" name="submit" value="submit">Convert</button>
             </div>
         </form>
     </div>
