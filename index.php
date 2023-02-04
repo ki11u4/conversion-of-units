@@ -72,15 +72,15 @@ if(isset($_POST['submit'])) {
                 </div>
                 <select name="to_unit" class="form-select" aria-label="Default select example">
                     <option selected>Select Unit</option>
-                    <option value="inches"<?php if($to_unit == 'inches') { echo " selected"; } ?>>inches</option>
-                    <option value="feet"<?php if($to_unit == 'feet') { echo " selected"; } ?>>feet</option>
-                    <option value="yards"<?php if($to_unit == 'yards') { echo " selected"; } ?>>yards</option>
-                    <option value="miles"<?php if($to_unit == 'miles') { echo " selected"; } ?>>miles</option>
-                    <option value="millimeters"<?php if($to_unit == 'millimeters') { echo " selected"; } ?>>millimeters</option>
-                    <option value="centimeters"<?php if($to_unit == 'centimeters') { echo " selected"; } ?>>centimeters</option>
-                    <option value="meters"<?php if($to_unit == 'meters') { echo " selected"; } ?>>meters</option>
-                    <option value="kilometers"<?php if($to_unit == 'kilometers') { echo " selected"; } ?>>kilometers</option>
-                    <option value="nautical_miles"<?php if($to_unit == 'nautical_miles') { echo " selected"; } ?>>nautical miles</option>
+                    <option value="inches"<?php if($to_unit == 'inches') { echo " selected"; } ?>>Inch</option>
+                    <option value="feet"<?php if($to_unit == 'feet') { echo " selected"; } ?>>Foot</option>
+                    <option value="yards"<?php if($to_unit == 'yards') { echo " selected"; } ?>>Yard</option>
+                    <option value="miles"<?php if($to_unit == 'miles') { echo " selected"; } ?>>Mile</option>
+                    <option value="millimeters"<?php if($to_unit == 'millimeters') { echo " selected"; } ?>>Millimeter</option>
+                    <option value="centimeters"<?php if($to_unit == 'centimeters') { echo " selected"; } ?>>Centimeter</option>
+                    <option value="meters"<?php if($to_unit == 'meters') { echo " selected"; } ?>>Meter</option>
+                    <option value="kilometers"<?php if($to_unit == 'kilometers') { echo " selected"; } ?>>Kilometer</option>
+                    <option value="nautical_miles"<?php if($to_unit == 'nautical_miles') { echo " selected"; } ?>>Nautical Miles</option>
                     <option value="nanometre"<?php if($to_unit == 'nanometre') { echo " selected"; } ?>>Nanometre</option>
                     <option value="micrometre"<?php if($to_unit == 'micrometre') { echo " selected"; } ?>>Micrometre</option>
                 </select>
