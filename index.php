@@ -35,11 +35,14 @@ if(isset($_POST['submit'])) {
             font-family: 'Poppins', sans-serif;
         }
         body {
-            background-image: url(image/BG.jpg);
+            background-image: url(image/288421502_428101219183923_3364400594246027449_n.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
             background-color: rgba(0,0,0,0.8);
             background-blend-mode: multiply;
         }
         .container {
+            background-color: #800000;
             height: 500px;
             width: 400px;
         }
@@ -50,7 +53,7 @@ if(isset($_POST['submit'])) {
             color: white !important;
         }
     </style>
-    <div class="container shadow-lg p-3 bg-body rounded mt-5">
+    <div class="container shadow-lg p-3 bg-body rounded mt-5 main">
         <div class="container-fluid shadow-sm">
             <h2 class="text-uppercase p-1">conversion of unit</h2>
             <p class="p-1 text-danger">Length only</p>
