@@ -38,6 +38,9 @@ if(isset($_POST['submit'])) {
             height: 500px;
             width: 400px;
         }
+        b {
+            color: pink;
+        }
     </style>
     <div class="container shadow-lg p-3 bg-body rounded mt-5">
         <div class="container-fluid shadow-sm">
@@ -91,7 +94,7 @@ if(isset($_POST['submit'])) {
         </form>
     </div>
     <div class="attribution d-flex justify-content-center mt-5">
-    Challenge by our Prof. Renz Angelo Cadaoas. Coded by Group 2.
+    <p>Challenge by our <b>Prof. Renz Angelo Cadaoas</b>. Coded by <b>Group 2.</b></p>
   </div>
   </body>
 </html>
