@@ -34,12 +34,20 @@ if(isset($_POST['submit'])) {
         * {
             font-family: 'Poppins', sans-serif;
         }
+        body {
+            background-image: url(image/BG.jpg);
+            background-color: rgba(0,0,0,0.8);
+            background-blend-mode: multiply;
+        }
         .container {
             height: 500px;
             width: 400px;
         }
         b {
             color: pink;
+        }
+        p {
+            color: white !important;
         }
     </style>
     <div class="container shadow-lg p-3 bg-body rounded mt-5">
@@ -88,8 +96,8 @@ if(isset($_POST['submit'])) {
                     <option value="micrometre"<?php if($to_unit == 'micrometre') { echo " selected"; } ?>>Micrometre</option>
                 </select>
             </div>
-            <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-outline-primary mt-4" type="submit" name="submit" value="submit">Convert</button>
+            <div class="container-fluid mt-5 d-grid gap-2">
+                <button class="btn btn-outline-primary" type="submit" name="submit" value="submit">Convert</button>
             </div>
         </form>
     </div>
